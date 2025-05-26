@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metal Sailor - Pro Sailing, Unfiltered</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #001f3f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #003366;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-image: url('https://your-hero-image-url.com');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #003366;
+    }
+    .series-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .series {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+    }
+    .cta {
+      background-color: #ff6f00;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 4px;
+      display: inline-block;
+      margin-top: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Metal Sailor</h1>
+    <p>Pro Sailing, Unfiltered</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#series">Series</a>
+    <a href="#collab">Collaborate</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Aluminum Yachts. Real Skippers. True Adventure.</h1>
+    <p>Follow the pro side of sailing — Mediterranean deliveries, yacht walkthroughs, and skipper training, all with authentic storytelling.</p>
+    <a class="cta" href="https://www.youtube.com/@metalsailor" target="_blank">Subscribe on YouTube</a>
+  </section>
+
+  <section id="about" class="section">
+    <h2>Our Mission</h2>
+    <p>We are building the #1 sailing media brand for high-end aluminum yacht owners, aspiring crew, and sailing enthusiasts. With behind-the-scenes access and raw, professional storytelling, Metal Sailor connects real opportunities with epic experiences on the sea.</p>
+  </section>
+
+  <section id="series" class="section">
+    <h2>Video Series</h2>
+    <div class="series-grid">
+      <div class="series">
+        <h3>Boat Transfer Diaries</h3>
+        <p>Skipper vlogs from real delivery missions. Lessons, drama, and views.</p>
+      </div>
+      <div class="series">
+        <h3>Skipper School</h3>
+        <p>How-tos for docking, weather routing, and crisis management.</p>
+      </div>
+      <div class="series">
+        <h3>Metal Yacht Tours</h3>
+        <p>Explore the design and systems of top-tier aluminum sailing yachts.</p>
+      </div>
+      <div class="series">
+        <h3>Med Secrets</h3>
+        <p>Local anchorages, hidden ports, and passage planning tips.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="collab" class="section">
+    <h2>Work With Us</h2>
+    <p>Are you a boat owner, marina manager, or sailing brand? We offer video content, skipper matching, and unique promotion opportunities across our channels.</p>
+    <p>Email us: <strong>crew@metalsailor.com</strong></p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Stay in Touch</h2>
+    <p>Get updates on new videos, job opportunities, and behind-the-scenes stories.</p>
+    <a class="cta" href="#">Join Our Mailing List</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Metal Sailor. All rights reserved.</p>
+  </footer>
+</body>
+</html>
